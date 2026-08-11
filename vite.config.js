@@ -8,4 +8,9 @@ export default defineConfig({
     react(),
     babel({ presets: [reactCompilerPreset()] })
   ],
+  base: '/ci_cd_react_practice_app/',
+  server: {
+    port: 3000,
+    open: true
+  }
 })
