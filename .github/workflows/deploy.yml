@@ -1,4 +1,4 @@
-name: ci-cd-practice-project
+name: ci_cd_practice_project
 
 on:
   workflow_dispatch:
